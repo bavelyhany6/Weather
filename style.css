@@ -1,0 +1,122 @@
+.html{
+    box-sizing: border-box;
+}
+::placeholder{
+  color: white !important;
+}
+.navbar {
+  background-color: #1e202b !important;
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  border: 2px solid #07a5da;
+  color: #07a5da !important;
+  padding-right: 20px !important;
+  padding-left: 20px !important;
+}
+.nav-link:focus,
+.nav-link{
+  border: 2px solid transparent;
+padding-right: 20px !important;
+padding-left: 20px !important;
+transition: .5s;
+
+}
+.nav-link:focus,
+.nav-link:hover {
+  border: 2px solid #07a5da;
+  color: #07a5da !important;
+padding-right: 20px !important;
+padding-left: 20px !important;
+transition: .5s;
+}
+.tagline{
+    font-size: 8px;
+}
+/* //////////////////////////////////////background-image/////////////////////////////////////////// */
+
+.head{
+    background-image: url(images/banner.png);
+    background-repeat: no-repeat; 
+    background-color: #1E202B;
+}
+ header input ,.foot input{
+  background-color:#1e202b !important;
+  
+}
+.form-control{
+  border: var(--bs-border-width) solid #1e202b;
+}
+.form-control:focus {
+  box-shadow:none;
+  border-color:transparent;
+  border-color: #1e202b;
+}
+.sch-btn{
+  background-color: #07a5da;
+}
+.card{
+  background-color: #323544;
+  color: white;
+  min-height: 50vh;
+}
+.card .card-top{
+  background-color: #2D303D;
+  color: rgba(255, 255, 255, 0.66);
+
+}
+.card .place{
+  color: rgba(255, 255, 255, 0.66);
+  font-size: 20px;
+}
+.card .dgree{
+  font-size: 60px;
+}
+.card .sky{
+ color: #07a5da;
+}
+.card .details{
+  color: rgba(255, 255, 255, 0.66);
+}
+.card .icon{
+ font-size: 30px;
+}
+.card .first{
+ font-size: 20px;
+ font-weight: bold;
+}
+.card .second{
+ font-size: 15px;
+ color: rgba(255, 255, 255, 0.66);
+
+}
+
+.location-search{
+  background-color: #1e202b;
+}
+input{
+  color: white !important;
+}
+
+
+
+
+ /* /////////////////////////////////////footer////////////////////////////////////// */
+ .foot{
+  background-color: #2D303D;
+  color: rgba(255, 255, 255, 0.591) !important; 
+}
+.foot i{
+  font-size: 20px;
+  border-radius:50% ;
+  padding: 8px;
+  background-color: #1c1e29;
+  color: #07a5da;
+  transition: .3s;
+
+}
+.foot i:hover{
+  background-color: #07a5da;
+  color: white;
+  transition: .3s;
+}
